@@ -12,7 +12,8 @@
     "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
     "object-assign":"4.1.0",
-    "xmldoc": "0.5.1"
+    "xmldoc": "0.5.1",
+    "xtuple-documentation": "0.0.4"
   },
   "engine": {
     "node": "*",
