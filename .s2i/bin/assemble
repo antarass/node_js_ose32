@@ -32,6 +32,8 @@ echo "---> Installing application source"
 cp -Rf /tmp/src/. ./
 #chgrp -R 0 ./
 #chmod -R g+rw ./
+echo "---> Clearing the npm cache"
+npm cache clean
 
 echo "---> Building your Node application from source"
 npm install -d
